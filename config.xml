@@ -14,5 +14,5 @@
       <preference name="orientation" value="portrait" />
       <!--preference name="fullscreen" value="true" /-->
       <preference name="permissions" value="none"/>
-      <gap:plugin name="org.common.plugins.updateapp" />
+      <!--gap:plugin name="org.common.plugins.updateapp" /-->
     </widget>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+          xmlns:gap = "http://phonegap.com/ns/1.0"
+          id = "com.phonegap.example"
+          version = "1.0.0">
+  
+      <name>Einbrecherin</name>
+  
+  
+      <author href="https://github.com/12shooting/WG" email="kontakt@ero-play.com">
+          12Shooting
+      </author>
+      <gap:platform name="android" />
+      <preference name="orientation" value="portrait" />
+      <!--preference name="fullscreen" value="true" /-->
+      <preference name="permissions" value="none"/>
+      <gap:plugin name="org.common.plugins.updateapp" />
+    </widget>

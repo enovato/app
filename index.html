@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+       "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style type="text/css">
+       iframe {
+       height 100%;
+       width 100%;
+       min-height: 650px;
+       }
+</style>
+<script src="phonegap.js"></script>
+<script type="text/javascript" charset="utf-8">
+  document.addEventListener("deviceready", onDeviceReady, false);
+  function onDeviceReady() {
+    document.addEventListener("backbutton", onBackKeyDown, false);
+    window.location="http://www.ero-play.com/wp-content/uploads/stories/WG/WG.html";
+  }
+  function onBackKeyDown() {
+  exitAppPopup();
+  }
+  function exitAppPopup() {
+          navigator.notification.confirm(
+                'Geschichte verlassen?'
+              , function(button) {
+                    if (button == 2) {
+                        navigator.app.exitApp();
+                    }
+                }
+              , 'Beenden'
+              , 'Nein,Ja'
+          );  
+          return false;
+  }
+</script>
+<title>Einbrecherin</title>
+</head>
+<body>
+
+  
+</body>
+</html>

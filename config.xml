@@ -18,4 +18,5 @@
       <preference name="permissions" value="none"/>
       <!--gap:plugin name="org.common.plugins.updateapp" /-->
       <icon src="icon.png" />
+      <gap:splash src="splash.png" />
     </widget>

@@ -17,4 +17,5 @@
       <!--preference name="fullscreen" value="true" /-->
       <preference name="permissions" value="none"/>
       <!--gap:plugin name="org.common.plugins.updateapp" /-->
+      <icon src="icon.png" />
     </widget>

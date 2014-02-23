@@ -9,9 +9,14 @@
        min-height: 650px;
        }
 </style>
-<script src="phonegap.js"></script>
+<script src="cordova.js"></script>
 <script type="text/javascript" charset="utf-8">
-  document.addEventListener("deviceready", onDeviceReady, false);
+  function onLoad() {
+       document.addEventListener("deviceready", onDeviceReady, false);
+  }
+  function onDeviceReady() {
+       document.addEventListener("deviceready", onDeviceReady, false);
+  }
   function onDeviceReady() {
     document.addEventListener("backbutton", onBackKeyDown, false);
     window.location="http://www.ero-play.com/wp-content/uploads/stories/WG/WG.html";

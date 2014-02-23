@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
-          xmlns:gap = "http://phonegap.com/ns/1.0"
-          id = "com.ero-play.app"
-          version = "1.0.1">
+          id = "com.ero-play.app.wg"
+          version = "1.0.2">
   
       <name>WG - eine erotische Wohnungsbesichtigung</name>
   
   
-      <author href="https://github.com/12shooting/WG" email="kontakt@ero-play.com">
+      <author href="www.ero-play.com" email="kontakt@ero-play.com">
           ero-play.com
       </author>
       <gap:platform name="ios" />

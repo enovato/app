@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
           xmlns:gap = "http://phonegap.com/ns/1.0"
-          id = "com.ero-play.app.wg"
-          version = "1.0.4">
+          id = "de.vinee.de.app"
+          version = "0.0.4">
   
-      <name>WG - eine erotische Wohnungsbesichtigung</name>
+      <name>Wein.Einfach.Finden!</name>
   
   
-      <author href="www.ero-play.com" email="kontakt@ero-play.com">
-          ero-play.com
+      <author href="www.vinee.de" email="kontakt@e-novato.de">
+         www.vinee.de
       </author>
       <gap:platform name="ios" />
       <gap:platform name="android" />

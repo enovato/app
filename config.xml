@@ -19,6 +19,6 @@
       <!--gap:plugin name="org.common.plugins.updateapp" /-->
       <icon src="icon.png" />
       <gap:splash src="splash.png" />
-      <access origin="http://127.0.0.1*"/>
-      <access origin="http://vinee.de" subdomains="true" />
+      
+      <access origin="http://www.vinee.de" subdomains="true" />
     </widget>

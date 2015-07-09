@@ -20,6 +20,6 @@
       <icon src="icon.png" />
       <gap:splash src="splash.png" />
       <gap:plugin name="org.li8.inappbrowser" version="0.1" />
-      
+    < access origin="*" browserOnly="true"/>
       
     </widget>
